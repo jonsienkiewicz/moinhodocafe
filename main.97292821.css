@@ -19,10 +19,21 @@ h2.text-center::after {
 	background: brown;
 }
 
+h2::after {
+	background: brown;
+}
+.container h4 {
+	font-weight: normal;
+}
+
 i {
-	color:#daa520;
+	color:brown;
 	padding: 10px;
 }
+div.overlay {
+    background-size: 100%;
+  }
+
 
 @media (max-width: 767px) {
   .background-image-container {
