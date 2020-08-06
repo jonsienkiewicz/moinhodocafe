@@ -23,6 +23,14 @@ h2::after {
 	background: brown;
 }
 
+.fa-icon {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100px
+	height:100 px;
+}
+
 .btn:hover {
 	background-color: #daa520;
 }
