@@ -14,15 +14,15 @@ p {
 	color:black;
 }
 h1,h2,h3,h4,h5,h6 {
-	color:#daa520;
+	color:#996515;
 }
 
 h2.text-center::after {
-	background: brown;
+	background: #6F4E37;
 }
 
 h2::after {
-	background: brown;
+	background: #6F4E37;
 }
 
 .fa-icon {
@@ -34,7 +34,7 @@ h2::after {
 }
 
 .btn:hover {
-	background-color: #daa520;
+	background-color: #996515;
 }
 
 .container h4 {
@@ -42,7 +42,7 @@ h2::after {
 }
 
 i {
-	color:brown;
+	color:#996515;
 	padding: 10px;
 }
 div.overlay {
