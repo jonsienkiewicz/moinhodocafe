@@ -37,6 +37,8 @@ h2::after {
 	background-color: #6F4E37;
 }
 
+
+
 .container h4 {
 	font-weight: normal;
 }
@@ -45,6 +47,12 @@ i {
 	color:#6F4E37;
 	padding: 10px;
 }
+
+i.fa.fa-facebook.fa-2x::before:hover {
+
+	color: #6F4E37;
+}
+
 div.overlay {
     background-size: 100%;
   }
