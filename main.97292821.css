@@ -9,14 +9,54 @@
 /*# sourceMappingURL=main.faaf51f9.map*/
 
 
-
 p {
+	display: flex;
+	justify-content:center;
+	align-items: center;
 	color:black;
+	text-align: justify;
 }
 
 h1,h2,h3,h4,h5,h6 {
 	color:#6F4E37;
 }
+
+div.roi.col:hover img {
+
+	transform: scale(.5);
+
+}
+
+div.roi.col img:hover {
+
+	transform: scale(1.25);
+
+}
+
+div.roi.col img {
+
+	transition: transform .25s ease;
+
+}
+
+
+.background-image-container h3 {
+  	margin: 22px;
+}
+
+.background-image-container p {
+  	margin-top: 30px;
+}
+
+.section-half-background-image-container p {
+	display: block;
+}
+
+.section-half-background-image-container a {
+	margin: 0px 4px;
+}
+
+
 
 h2.text-center::after {
 	background: #6F4E37;
@@ -30,8 +70,8 @@ h2::after {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	width: 100px
-	height:100 px;
+	width: 100px;
+	height: 100px;
 }
 
 .btn:hover {
@@ -48,20 +88,42 @@ i {
 }
 
 i.fa.fa-facebook.fa-2x::before:hover {
-
 	color: #6F4E37;
+}
+
+div.oi {
+	margin-bottom: 100px;
 }
 
 div.overlay {
     background-size: 100%;
   }
 
-
+div.section-container {
+	padding: 0;
+}
 @media (max-width: 767px) {
-  .background-image-container {
-    background-size: 100%;
-  }
-  .col-xs-12 h1 {
-  	font-size: 40px;
-  }
+
+  	.background-image-container {
+   		background-size: 100%;
+    	padding: 0;
+  	}
+	
+  	.background-image-container h2{
+	  	font-size: 20px;
+	  	margin: 9px;
+  	}
+	.background-image-container p {
+	  	margin-top: 11px;
+	}
+    .background-image-container h2::after{
+  		display: none;
+  	}
+  	.background-image-container a {
+	  	width: auto;
+	  	padding: 5px;
+  	}
+  	.col-xs-12 h1 {
+  		font-size: 40px;
+  	}
 } 
